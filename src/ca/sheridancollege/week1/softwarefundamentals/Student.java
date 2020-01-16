@@ -14,6 +14,7 @@ public class Student {
     private String name;
     private String id;
     private int age;
+    private String email;
     
 
     /**
@@ -60,6 +61,20 @@ public class Student {
      */
     public void setAge(int age) {
         this.age = age;
+    }
+
+    /**
+     * @return the email
+     */
+    public String getEmail() {
+        return email;
+    }
+
+    /**
+     * @param email the email to set
+     */
+    public void setEmail(String email) {
+        this.email = email;
     }
 
 }
