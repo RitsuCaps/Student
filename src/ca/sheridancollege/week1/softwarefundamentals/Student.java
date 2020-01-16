@@ -13,6 +13,7 @@ public class Student {
     
     private String name;
     private String id;
+    private int age;
     
 
     /**
@@ -45,6 +46,20 @@ public class Student {
      */
     public void setId(String id) {
         this.id = id;
+    }
+
+    /**
+     * @return the age
+     */
+    public int getAge() {
+        return age;
+    }
+
+    /**
+     * @param age the age to set
+     */
+    public void setAge(int age) {
+        this.age = age;
     }
 
 }
