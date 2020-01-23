@@ -17,7 +17,7 @@ public class Student {
     private String email;
     private String address;
     private String program;
-    
+    private String status;
 
     /**
      * Get the value of name
@@ -105,6 +105,20 @@ public class Student {
      */
     public void setProgram(String program) {
         this.program = program;
+    }
+
+    /**
+     * @return the status
+     */
+    public String getStatus() {
+        return status;
+    }
+
+    /**
+     * @param status the status to set
+     */
+    public void setStatus(String status) {
+        this.status = status;
     }
 
 }
