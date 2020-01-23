@@ -93,6 +93,20 @@ public class Student {
         this.address = address;
     }
 
+    /**
+     * @return the program
+     */
+    public String getProgram() {
+        return program;
+    }
+
+    /**
+     * @param program the program to set
+     */
+    public void setProgram(String program) {
+        this.program = program;
+    }
+
 }
  
    
