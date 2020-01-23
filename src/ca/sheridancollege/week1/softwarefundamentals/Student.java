@@ -16,6 +16,7 @@ public class Student {
     private int age;
     private String email;
     private String address;
+    private String program;
     
 
     /**
